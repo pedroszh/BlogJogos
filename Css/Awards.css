@@ -1,0 +1,193 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    margin: 5px;
+}
+
+.trofe {
+    margin-left: 5px;
+    height: 20px;
+}
+
+/* Estilos do Header */
+header {
+    padding-top: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align:justify;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(0, 0, 0);
+}
+
+.filhoheader {
+    display: inline;
+}
+
+.barraL {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 3.9rem;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+button {
+    background-color: #000000;
+}
+
+.barraL a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.primeiro {
+    margin-top: 20px;
+}
+
+.barraL a:hover {
+    color: #65B8A6;
+}
+
+.barraL .fechar {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.abrir {
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.abrir:hover {
+    background-color: #65B8A6;
+    transition: 0.45s;
+}
+
+@media screen and (max-height: 450px) {
+    .barraL {
+        padding-top: 15px;
+    }
+    .barraL a {
+        font-size: 18px;
+    }
+}
+
+#texto {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    left: 1.5rem;
+    margin-left: 25px;
+    margin-top: 0.5rem;
+}
+
+/* Estilos do Main */
+img[class="award"] {
+    width: 100%;
+    margin-top: 50px;
+}
+
+main {
+    padding: 50px;
+    background-color: rgb(12, 11, 11);
+    margin-bottom: 10px;
+}
+
+img[class="trofeu"] {
+    height: 20px;
+    margin-right: -10px;
+}
+
+h3 {
+    text-indent: 20px;  
+    color: #65B8A6; 
+}
+
+.vencedor {
+    color: #65B8A6;
+}
+
+.cor {
+    color: #65B8A6;
+    display: inline;
+}
+
+/* Estilos do Footer */
+footer {
+    width: 100%;
+    position: static;
+}
+
+.footer-content {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem 3.5rem;
+}
+
+footer ul li {
+    color: white;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.footer-lista-blog {
+    margin: 0px;
+}
+
+.footer-lista-blog li {
+    margin: 5px;
+}
+
+.final h3 {
+    color: white;
+    display: inline;
+}
+
+footer h3 {
+    text-indent: 0;
+    padding: 0;
+}
+
+.game {
+    display: inline;
+    color: #65B8A6;
+}
+
+footer ul li {
+    color: #65B8A6;
+}
+
+footer ul li span {
+    color: white;
+}

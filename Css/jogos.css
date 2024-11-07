@@ -1,0 +1,223 @@
+body{
+background-color: rgb(12, 11, 11);
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 0px;
+}
+
+/* Inicio Header */
+
+header{
+padding-top: 0;
+width: 100%;
+background-size: cover;
+background-position: center;
+text-align:justify;
+position: fixed;
+z-index: 2;
+background-color: rgb(0, 0, 0);
+}
+
+.filhoheader {
+display: inline;
+}
+
+.barraL {
+padding: 0;
+margin-top: 0;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 3.9rem;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+button{
+background-color: #000000;
+}
+
+.barraL a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.primeiro {
+margin-top: 20px;
+}
+
+.barraL a:hover {
+color: #65B8A6;
+}
+
+.barraL .fechar {
+position: absolute;
+top: 0;
+right: 10px;
+font-size: 25px;
+margin-left: 50px;
+}
+
+.abrir {
+font-size: 2rem;
+cursor: pointer;
+background-color: #000000;
+color: white;
+padding: 10px 15px;
+border: none;
+}
+
+.abrir:hover {
+background-color: #65B8A6;
+transition: 0.45s;
+}
+
+@media screen and (max-height: 450px) {
+.barraL {padding-top: 15px;}
+.barraL a {font-size: 18px;}
+}
+
+#texto{
+position: absolute;
+top: 0;
+right: 0.5rem;
+left: 1.5rem;
+margin-left: 25px;
+margin-top: 0.5rem;
+}
+
+/*Fim do Header */
+h2{
+text-align: center;
+}
+
+section{
+padding: 70px;   
+}
+
+/* Todas as divs */
+div{
+margin-top: 15px;
+padding: 10px;
+}
+
+/* Tirar os sublinhados */
+div a{
+text-decoration: none; 
+}
+
+/* DIV DOS JOGOS */
+div[class="display"]{ 
+background-color: rgb(15, 14, 14);
+padding: 0px;
+border-radius: 5px;
+width: 243.33px;
+text-align: center;
+text-decoration: none;
+margin-left: 30px;
+}
+
+img[class="CS"]{
+width: 243.33px;
+height: 136.86px;
+border-radius: 0px;
+}
+
+p{
+font-family: serif;
+color: white
+}
+
+/* Deixa as divs lado a lado */
+.display{
+display: inline-block;
+}
+
+button[class="bodybut"]{
+background-color: #65B8A6; 
+border-color: #65B8A6;
+color: white;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+button[class="bodybut"]:hover{
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+transition: 0.45s;
+}
+
+.info{
+text-align: center;
+}
+
+/*Inicio Footer */
+footer{ /* Ocupar a largura toda */
+width: 100%;
+position: static;
+}
+
+/* Divide em Blocos */
+.footer-content{
+background-color: black;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+padding: 3rem 3.5rem;
+}
+
+footer ul li {
+color: white;
+}
+
+.footer-logo{
+width: 200px;
+}
+
+/*Deixa na mesma altura do que os "Blocos" contato e créditos*/
+.footer-lista-blog{
+margin: 0px;
+}
+
+/*Espaçamento entres os li*/
+.footer-lista-blog li{
+margin: 5px;
+}
+
+.final h3 p{
+display: inline;
+}
+
+.game{
+color: #65B8A6;
+font-family: Arial;
+}
+
+/* Mantém a bolinha do li de uma cor no footer */
+footer ul li{
+color: #65B8A6;
+}
+
+/* Mantém o texto do li de outra cor no footer */
+footer ul li span{
+color: white;
+}
+
+/*Fim footer */
+
+/* Tira sublinhados */
+a{
+text-decoration: none;
+color: white;
+}
+
+i{
+margin: 5px;
+}
